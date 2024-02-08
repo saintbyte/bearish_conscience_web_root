@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine
+FROM golang:1.22-alpine
 ENV HTTP_PORT="1323"
 EXPOSE 1323
 WORKDIR /app
